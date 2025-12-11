@@ -10,11 +10,11 @@ import lombok.AccessLevel;
 @Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class shortUrlDTO {
-    
-    private Long id;
+public class ShortUrlResponseDTO {
+
+    private String originUrl;
+
     private String shortUrl;
-    private String longUrl;
-    private String createdAt;
-    private String updatedAt;
+
+    
 }
